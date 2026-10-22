@@ -10,7 +10,7 @@
 % https://sourceforge.net/projects/ddebiftool/ (or its GitHub mirror).
 % The figure scripts only need DDE-BIFTOOL if you rerun the computations.
 
-ddebiftool_folder = fullfile('~', 'ddebiftool');
+ddebiftool_folder = 'C:/dde_biftool_v3.1.1/';
 
 project = fileparts(mfilename('fullpath'));
 addpath(fullfile(project, 'model'), fullfile(project, 'tools'), ...
