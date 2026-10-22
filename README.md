@@ -52,7 +52,7 @@ The computations and the plotting are kept apart on purpose. The computations ca
 | 6 | Orbit diagram and Lyapunov exponent | `c5_route_to_chaos` | `fig6_route_to_chaos` |
 | 7 | Periodic, quasi-periodic, mode-locked and chaotic solutions | `c5_route_to_chaos` | `fig7_chaos_examples` |
 
-Run times on a laptop: `c1` about a minute, `c2` a few minutes, `c3` about 10 minutes, `c4` about 15 minutes, `c5` about 15 minutes.
+Run times on a laptop: `c1` about a minute, `c2` a few minutes, `c3` about 35 minutes, `c4` about 15 minutes, `c5` about 15 minutes.
 
 ## The two parameter sets
 
