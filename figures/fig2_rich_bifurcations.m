@@ -38,7 +38,7 @@ end
 % Past the torus bifurcation the solution moves on an invariant torus,
 % which continuation cannot follow. We can show it instead by the local maxima
 % of u from the direct simulations of c5 (Figure 6), which fill an interval.
-% Uncomment lines 46-48 to add this information to the plot if you want to.
+% Uncomment lines 46-48 and 73-76 to add this information to the plot if you want to.
 taurange = [min(A.orbits.tau) - 0.005, max(A.orbits.tau)];
 y = [A.hopf_point.u; A.orbits.maxima(:)];
 have_sim = isfile(wc_file('data', 'route_to_chaos.mat'));
@@ -70,10 +70,10 @@ all_tau = B.isola_summary.tau;
 xlim(ax, [min(all_tau), max(all_tau)] + 0.01*[-1 1]);
 xlabel(ax, '$\tau$');  ylabel(ax, 'maximum of $u$');
 [h, labels] = legend_items(ax, {'eq', 'po', 'po2', 'hopf', 'torus', 'pd', 'fold'});
-if have_sim
-    h(end+1) = plot(ax, nan, nan, '.', 'Color', S.torus, 'MarkerSize', 8);
-    labels{end+1} = 'torus (simulation)';
-end
+% if have_sim
+%     h(end+1) = plot(ax, nan, nan, '.', 'Color', S.torus, 'MarkerSize', 8);
+%     labels{end+1} = 'torus (simulation)';
+% end
 finish_axes(ax, '(b)');
 shade(ax, [0.2655 0.28]);
 
