@@ -1,6 +1,4 @@
-# Code for the SIAM Review paper on delay differential equations in neuroscience
-
-# Code for the paper "Exploring Neural Dynamics with Time Delays: A Numerical and Bifurcation Analysis Approach by M.R. Nelson and J.J. Crofts
+# Code for the paper "Exploring Neural Dynamics with Time Delays: A Numerical and Bifurcation Analysis Approach" by M.R. Nelson and J.J. Crofts
 
 (Submitted to SIAM Review, October 2026)
 
