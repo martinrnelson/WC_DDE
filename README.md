@@ -1,6 +1,12 @@
 # Code for the SIAM Review paper on delay differential equations in neuroscience
 
-Code for every listing and figure in the paper by I. Pinder, M. R. Nelson and J. J. Crofts. It studies the Wilson–Cowan model with one delay τ,
+# Code for the paper "Exploring Neural Dynamics with Time Delays: A Numerical and Bifurcation Analysis Approach by M.R. Nelson and J.J. Crofts
+
+(Submitted to SIAM Review, October 2026)
+
+## The Model
+
+The manuscript studies the Wilson–Cowan model with one delay τ,
 
   u′(t) = −u(t) + f(a u(t−τ) + b v(t−τ) + P),
   v′(t) = −v(t) + f(c u(t−τ) + d v(t−τ) + Q),    f(z) = 1/(1 + e^(−βz)),
